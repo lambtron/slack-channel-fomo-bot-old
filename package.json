@@ -1,0 +1,26 @@
+{
+  "name": "segment-slack-channels",
+  "version": "0.0.1",
+  "description": "Get information about Segment Slack channels.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --harmony ./server/server.js"
+  },
+  "engines": {
+    "node": "0.12.x",
+    "npm": "2.1.x"
+  },
+  "author": "Andy Jiang",
+  "license": "MIT",
+  "dependencies": {
+    "co": "^4.6.0",
+    "co-monk": "^1.0.0",
+    "cron": "^1.0.9",
+    "kerberos": "0.0.17",
+    "lodash": "^3.10.1",
+    "mongodb": "^1.4.39",
+    "monk": "^1.0.1",
+    "node-fmt": "^1.0.3",
+    "superagent": "^1.4.0"
+  }
+}
