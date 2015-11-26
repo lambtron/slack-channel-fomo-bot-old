@@ -1,1 +1,1 @@
-clock: node --harmony ./server/cron.js
+web: node --harmony ./server/cron.js
