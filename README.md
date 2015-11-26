@@ -8,7 +8,7 @@
 
 1. Get a [Slack token](https://api.slack.com/tokens)
 2. Get a [Slack webhook URL](https://my.slack.com/services/new/incoming-webhook)
-3. Add them to your Heroku app settings
+3. Add them to your [Heroku app settings]()
 
 ## Usage
 
