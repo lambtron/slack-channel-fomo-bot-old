@@ -3,6 +3,10 @@
   "description": "Notifications when a new channel is created.",
   "repository": "https://github.com/lambtron/slack-channel-fomo-bot",
   "website": "https://andyjiang.com",
-  "addons": ["mongolab:sandbox", "scheduler:standard"],
-  "keywords": ["slack", "channel", "new"]
+  "addons": ["mongolab:sandbox"],
+  "keywords": ["slack", "channel", "new"],
+  "formation": [
+    { "process": "web", "quantity": 0, "size": "dyno-size"},
+    { "process": "clock", "quantity": 1, "size": "dyno-size"}
+  ]
 }
