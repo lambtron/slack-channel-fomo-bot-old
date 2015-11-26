@@ -6,7 +6,7 @@
   "addons": ["mongolab:sandbox"],
   "keywords": ["slack", "channel", "new"],
   "formation": [
-    { "process": "web", "quantity": 0, "size": "dyno-size"},
-    { "process": "clock", "quantity": 1, "size": "dyno-size"}
+    { "process": "web", "quantity": 0, "size": "1x"},
+    { "process": "clock", "quantity": 1, "size": "1x"}
   ]
 }
