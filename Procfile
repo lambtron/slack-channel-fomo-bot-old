@@ -1,1 +1,0 @@
-web: node --harmony ./server/cron.js
