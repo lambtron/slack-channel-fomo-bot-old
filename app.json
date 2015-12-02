@@ -7,6 +7,6 @@
   "keywords": ["slack", "channel", "new"],
   "formation": [
     { "process": "web", "quantity": 0, "size": "1X"},
-    { "process": "clock", "quantity": 1, "size": "1X"}
+    { "process": "clock", "quantity": 1, "size": "free"}
   ]
 }
