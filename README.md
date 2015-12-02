@@ -2,6 +2,8 @@
 
 > Get notified when a new channel is created in Slack.
 
+![](https://cloudup.com/c14WVywYM5X+)
+
 ## Install
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?env[SLACK_TOKEN]=get+your+token+here:+https://api.slack.com/tokens&env[SLACK_WEBHOOK]=get+that+here:+https://my.slack.com/services/new/incoming-webhook)
@@ -11,10 +13,6 @@
 3. Add them to your Heroku app settings by going to the settings page of your app:
 
 ![](https://cloudup.com/ch_ZxzuDtIv+)
-
-## Usage
-
-![](https://cloudup.com/c14WVywYM5X+)
 
 ## License (MIT)
 
