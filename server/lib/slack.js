@@ -47,7 +47,8 @@ exports.post = function *(channels) {
 function fmtSlack(msg) {
   return JSON.stringify({
     username: 'Channel FOMO Bot',
-    text: msg
+    text: msg,
+    icon_url: 'http://i.imgur.com/fPEYTEl.png'
   });
 }
 
