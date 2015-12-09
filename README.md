@@ -2,7 +2,7 @@
 
 > Get notified when a new channel is created in Slack.
 
-![](https://cldup.com/dkNBu3Hywy.png)
+![](https://cldup.com/WokvXJ6C2d.png)
 
 ## Install
 
