@@ -58,7 +58,7 @@ function fmtSlack(msg) {
 
 function print(channel) {
   var str = '\n';
-  str += fmt('#%s', channel.name) + '\n';
+  str += fmt('<#%s>', channel.name) + '\n';
   if (channel.purpose.value) str += fmt('  Purpose: %s\n', channel.purpose.value);
   if (channel.topic.value) str += fmt('  Topic: %s\n', channel.topic.value);
   str += '\n';
